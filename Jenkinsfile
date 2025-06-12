@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat 'python data_analysis.py'
+                bat '"C:\\Users\\amakd\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" data_analysis.py'
             }
         }
     }
